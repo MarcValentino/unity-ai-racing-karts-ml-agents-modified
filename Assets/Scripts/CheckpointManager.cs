@@ -14,6 +14,7 @@ public class CheckpointManager : MonoBehaviour
     private int CurrentCheckpointIndex;
     private List<Checkpoint> Checkpoints;
     private Checkpoint lastCheckpoint;
+    
 
     public event Action<Checkpoint> reachedCheckpoint; 
 
@@ -52,12 +53,12 @@ public class CheckpointManager : MonoBehaviour
 
         if (CurrentCheckpointIndex >= Checkpoints.Count)
         {
-            kartAgent.AddReward(0.5f);
+            kartAgent.AddReward(5f);
             kartAgent.EndEpisode();
         }
         else
         {
-            kartAgent.AddReward((0.5f) / Checkpoints.Count);
+            kartAgent.AddReward((5f) / Checkpoints.Count);
             SetNextCheckpoint();
         }
     }

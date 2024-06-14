@@ -35,6 +35,7 @@ public class KartController : MonoBehaviour
 
    public void ApplyAcceleration(float input)
    {
+      input = Mathf.Abs(input);
       speed = acceleration * input;
       currentSpeed = Mathf.SmoothStep(currentSpeed, speed, Time.deltaTime * 12f);
       speed = 0f;
