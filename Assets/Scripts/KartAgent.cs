@@ -8,6 +8,8 @@ using UnityEngine;
 public class KartAgent : Agent
 {
     public CheckpointManager _checkpointManager;
+
+    public ParedeManager _paredeManager;
     private KartController _kartController;
 
     //called once at the start
@@ -31,11 +33,11 @@ public class KartAgent : Agent
         // Vector between Kart and next checkpoint
         Vector3 diff = _checkpointManager.nextCheckPointToReach.transform.position - transform.position;
         sensor.AddObservation(diff / 20f); // Divide by 20 to normalize
-        
+
         AddReward(-0.001f * (diff / 20f).magnitude); // Promote faster driving
     }
 
-        //Processing the actions received
+    //Processing the actions received
     public override void OnActionReceived(ActionBuffers actions)
     {
         var input = actions.ContinuousActions;
@@ -52,6 +54,7 @@ public class KartAgent : Agent
         action[0] = Input.GetAxis("Horizontal"); // Steering
         action[1] = Input.GetKey(KeyCode.W) ? 1f : 0f; // Acceleration
     }
+
 
     #endregion
 }

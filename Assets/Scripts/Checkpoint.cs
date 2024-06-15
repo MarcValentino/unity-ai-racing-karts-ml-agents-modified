@@ -9,6 +9,7 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.GetComponent<CheckpointManager>() != null)
         {
+            //Debug.Log("Passou no checkpoint");
             other.GetComponent<CheckpointManager>().CheckPointReached(this);
         }
     }
