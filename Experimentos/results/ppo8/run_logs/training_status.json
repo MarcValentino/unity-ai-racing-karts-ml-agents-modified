@@ -2,22 +2,31 @@
     "KartAgent": {
         "checkpoints": [
             {
-                "steps": 4608,
-                "file_path": "results\\ppo8\\KartAgent\\KartAgent-4608.onnx",
-                "reward": null,
-                "creation_time": 1718465451.144927,
+                "steps": 49964,
+                "file_path": "results\\ppo8\\KartAgent\\KartAgent-49964.onnx",
+                "reward": -0.983708830550313,
+                "creation_time": 1718467319.9675617,
                 "auxillary_file_paths": [
-                    "results\\ppo8\\KartAgent\\KartAgent-4608.pt"
+                    "results\\ppo8\\KartAgent\\KartAgent-49964.pt"
+                ]
+            },
+            {
+                "steps": 73636,
+                "file_path": "results\\ppo8\\KartAgent\\KartAgent-73636.onnx",
+                "reward": null,
+                "creation_time": 1718467392.0962033,
+                "auxillary_file_paths": [
+                    "results\\ppo8\\KartAgent\\KartAgent-73636.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 4608,
+            "steps": 73636,
             "file_path": "results\\ppo8\\KartAgent.onnx",
             "reward": null,
-            "creation_time": 1718465451.144927,
+            "creation_time": 1718467392.0962033,
             "auxillary_file_paths": [
-                "results\\ppo8\\KartAgent\\KartAgent-4608.pt"
+                "results\\ppo8\\KartAgent\\KartAgent-73636.pt"
             ]
         }
     },

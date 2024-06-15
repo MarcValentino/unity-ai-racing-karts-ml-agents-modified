@@ -13877,7 +13877,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 2522272462815626512}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2522272462815626514}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b28a49a08e4cacc40bb97f3d7ebddacb, type: 3}
@@ -16440,6 +16440,11 @@ PrefabInstance:
       propertyPath: m_BehaviorType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3137537921882263140, guid: 6ee47c49c80105744a68e93ce6972bd4,
+        type: 3}
+      propertyPath: _paredeManager
+      value: 
+      objectReference: {fileID: 2522272462815626516}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -16447,7 +16452,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 967692571}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3137537921078816488, guid: 6ee47c49c80105744a68e93ce6972bd4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2522272462815626516}
   m_SourcePrefab: {fileID: 100100000, guid: 6ee47c49c80105744a68e93ce6972bd4, type: 3}
 --- !u!4 &2522272462815626513 stripped
 Transform:
@@ -16455,6 +16464,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2522272462815626512}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2522272462815626514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3137537921078816488, guid: 6ee47c49c80105744a68e93ce6972bd4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2522272462815626512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2522272462815626515 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3137537921882263140, guid: 6ee47c49c80105744a68e93ce6972bd4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2522272462815626512}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd41b0426d9f2e45b4217c3d5e1d2a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2522272462815626516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2522272462815626514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1b4e9ad8e128548a8dd97b613abbac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kartAgent: {fileID: 2522272462815626515}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
