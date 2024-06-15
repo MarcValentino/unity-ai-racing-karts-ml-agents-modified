@@ -12,9 +12,8 @@ public class Parede : MonoBehaviour
     {
         if (other.GetComponent<ParedeManager>() != null)
         {
-            //Debug.Log("Bateu na parede");
+
             other.GetComponent<ParedeManager>().BateuNaParede();
-            //other.GetComponent<CheckpointManager>().CheckPointReached(this);
         }
     }
 
@@ -22,9 +21,8 @@ public class Parede : MonoBehaviour
     {
         if (other.GetComponent<ParedeManager>() != null)
         {
-            //Debug.Log("Bateu na parede");
+
             other.GetComponent<ParedeManager>().EstaNaParede();
-            //other.GetComponent<CheckpointManager>().CheckPointReached(this);
         }
     }
 }

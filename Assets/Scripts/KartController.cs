@@ -85,16 +85,10 @@ public class KartController : MonoBehaviour
    public void Steer(float steeringSignal)
    {
       int steerDirection = steeringSignal > 0 ? 1 : -1;
-      float steeringStrength = Mathf.Abs(steeringSignal) * 2.5f;
+      float steeringStrength = Mathf.Abs(steeringSignal) * 1.5f;
 
       rotate = (steering * steerDirection) * steeringStrength;
    }
 
-   private void OnCollisionEnter(Collision collision){
-   Debug.Log("OnCollisionEnter called with: " + collision.gameObject.name);
-   if (collision.gameObject.CompareTag("Parede")){
-      Debug.Log("Bateu na Parede");
-   }
-}
 
 }

@@ -11,12 +11,12 @@ public class ParedeManager : MonoBehaviour
     public void BateuNaParede()
     {
         //Debug.Log("Bateu na parede");
-        kartAgent.AddReward(-50f);
+        kartAgent.AddReward(-2f);
     }
 
     public void EstaNaParede()
     {
         //Debug.Log("Bateu na parede");
-        kartAgent.AddReward(-1f);
+        kartAgent.AddReward(-0.1f);
     }
 }
