@@ -1,0 +1,65 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 3049986,
+                "file_path": "results\\ppo7\\KartAgent\\KartAgent-3049986.onnx",
+                "reward": 14.660654187202454,
+                "creation_time": 1718420414.4162855,
+                "auxillary_file_paths": [
+                    "results\\ppo7\\KartAgent\\KartAgent-3049986.pt"
+                ]
+            },
+            {
+                "steps": 3099963,
+                "file_path": "results\\ppo7\\KartAgent\\KartAgent-3099963.onnx",
+                "reward": 14.64655938744545,
+                "creation_time": 1718420473.751434,
+                "auxillary_file_paths": [
+                    "results\\ppo7\\KartAgent\\KartAgent-3099963.pt"
+                ]
+            },
+            {
+                "steps": 3149989,
+                "file_path": "results\\ppo7\\KartAgent\\KartAgent-3149989.onnx",
+                "reward": 14.644008828246076,
+                "creation_time": 1718420532.7665331,
+                "auxillary_file_paths": [
+                    "results\\ppo7\\KartAgent\\KartAgent-3149989.pt"
+                ]
+            },
+            {
+                "steps": 3199998,
+                "file_path": "results\\ppo7\\KartAgent\\KartAgent-3199998.onnx",
+                "reward": 14.652403622439929,
+                "creation_time": 1718420592.6073472,
+                "auxillary_file_paths": [
+                    "results\\ppo7\\KartAgent\\KartAgent-3199998.pt"
+                ]
+            },
+            {
+                "steps": 3225959,
+                "file_path": "results\\ppo7\\KartAgent\\KartAgent-3225959.onnx",
+                "reward": 14.665032778097236,
+                "creation_time": 1718420628.1031418,
+                "auxillary_file_paths": [
+                    "results\\ppo7\\KartAgent\\KartAgent-3225959.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3225959,
+            "file_path": "results\\ppo7\\KartAgent.onnx",
+            "reward": 14.665032778097236,
+            "creation_time": 1718420628.1031418,
+            "auxillary_file_paths": [
+                "results\\ppo7\\KartAgent\\KartAgent-3225959.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cu121"
+    }
+}
