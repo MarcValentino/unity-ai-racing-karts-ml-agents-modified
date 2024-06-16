@@ -22,7 +22,7 @@ behaviors:
     network_settings:
       vis_encode_type: simple
       normalize: true
-      hidden_units: 256
+      hidden_units: 128
       num_layers: 2
       # memory
       #memory:

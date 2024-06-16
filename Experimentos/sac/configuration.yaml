@@ -25,9 +25,9 @@ behaviors:
       hidden_units: 128
       num_layers: 2
       # memory
-      memory:
-        sequence_length: 64
-        memory_size: 256
+      #memory:
+      #  sequence_length: 64
+      #  memory_size: 256
 
     # Trainer configurations common to all trainers
     max_steps: 1000000
@@ -60,7 +60,7 @@ behaviors:
         learning_rate: 3.0e-4
 
     # self-play
-    self_play: null
+    #self_play: null
       # window: 10
       # play_against_latest_model_ratio: 0.5
       # save_steps: 50000
