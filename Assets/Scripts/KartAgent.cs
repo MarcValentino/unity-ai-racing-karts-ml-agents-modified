@@ -33,6 +33,8 @@ public class KartAgent : Agent
         // Vector between Kart and next checkpoint
         Vector3 diff = _checkpointManager.nextCheckPointToReach.transform.position - transform.position;
         sensor.AddObservation(diff / 20f); // Divide by 20 to normalize
+
+        AddReward((diff / 20f).magnitude * -0.001f);
     }
 
     //Processing the actions received
