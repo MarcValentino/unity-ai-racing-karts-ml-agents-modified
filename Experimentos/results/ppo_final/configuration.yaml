@@ -79,7 +79,7 @@ checkpoint_settings:
   run_id: ppo_final
   initialize_from: null
   load_model: false
-  resume: false
+  resume: true
   force: false
   train_model: false
   inference: false

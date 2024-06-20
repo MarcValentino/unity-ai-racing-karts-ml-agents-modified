@@ -2,58 +2,58 @@
     "KartAgent": {
         "checkpoints": [
             {
-                "steps": 4849968,
-                "file_path": "results\\ppo_final\\KartAgent\\KartAgent-4849968.onnx",
-                "reward": 17.381638765800744,
-                "creation_time": 1718826711.5028515,
+                "steps": 4849939,
+                "file_path": "results\\ppo_final4\\KartAgent\\KartAgent-4849939.onnx",
+                "reward": 17.195861172676086,
+                "creation_time": 1718849221.2007306,
                 "auxillary_file_paths": [
-                    "results\\ppo_final\\KartAgent\\KartAgent-4849968.pt"
+                    "results\\ppo_final4\\KartAgent\\KartAgent-4849939.pt"
                 ]
             },
             {
-                "steps": 4899971,
-                "file_path": "results\\ppo_final\\KartAgent\\KartAgent-4899971.onnx",
-                "reward": 17.775115299224854,
-                "creation_time": 1718826748.9432223,
+                "steps": 4899978,
+                "file_path": "results\\ppo_final4\\KartAgent\\KartAgent-4899978.onnx",
+                "reward": 12.607557769864798,
+                "creation_time": 1718849260.1013718,
                 "auxillary_file_paths": [
-                    "results\\ppo_final\\KartAgent\\KartAgent-4899971.pt"
+                    "results\\ppo_final4\\KartAgent\\KartAgent-4899978.pt"
                 ]
             },
             {
-                "steps": 4949942,
-                "file_path": "results\\ppo_final\\KartAgent\\KartAgent-4949942.onnx",
-                "reward": null,
-                "creation_time": 1718826787.0865586,
+                "steps": 4949985,
+                "file_path": "results\\ppo_final4\\KartAgent\\KartAgent-4949985.onnx",
+                "reward": 17.70093163389426,
+                "creation_time": 1718849301.8451288,
                 "auxillary_file_paths": [
-                    "results\\ppo_final\\KartAgent\\KartAgent-4949942.pt"
+                    "results\\ppo_final4\\KartAgent\\KartAgent-4949985.pt"
                 ]
             },
             {
-                "steps": 4999968,
-                "file_path": "results\\ppo_final\\KartAgent\\KartAgent-4999968.onnx",
-                "reward": 14.614985170938512,
-                "creation_time": 1718826821.8288517,
+                "steps": 4999976,
+                "file_path": "results\\ppo_final4\\KartAgent\\KartAgent-4999976.onnx",
+                "reward": 13.297710490723452,
+                "creation_time": 1718849344.1130145,
                 "auxillary_file_paths": [
-                    "results\\ppo_final\\KartAgent\\KartAgent-4999968.pt"
+                    "results\\ppo_final4\\KartAgent\\KartAgent-4999976.pt"
                 ]
             },
             {
-                "steps": 5000032,
-                "file_path": "results\\ppo_final\\KartAgent\\KartAgent-5000032.onnx",
-                "reward": 14.614985170938512,
-                "creation_time": 1718826821.9188826,
+                "steps": 5000040,
+                "file_path": "results\\ppo_final4\\KartAgent\\KartAgent-5000040.onnx",
+                "reward": 13.297710490723452,
+                "creation_time": 1718849344.2013173,
                 "auxillary_file_paths": [
-                    "results\\ppo_final\\KartAgent\\KartAgent-5000032.pt"
+                    "results\\ppo_final4\\KartAgent\\KartAgent-5000040.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 5000032,
-            "file_path": "results\\ppo_final\\KartAgent.onnx",
-            "reward": 14.614985170938512,
-            "creation_time": 1718826821.9188826,
+            "steps": 5000040,
+            "file_path": "results\\ppo_final4\\KartAgent.onnx",
+            "reward": 13.297710490723452,
+            "creation_time": 1718849344.2013173,
             "auxillary_file_paths": [
-                "results\\ppo_final\\KartAgent\\KartAgent-5000032.pt"
+                "results\\ppo_final4\\KartAgent\\KartAgent-5000040.pt"
             ]
         }
     },
